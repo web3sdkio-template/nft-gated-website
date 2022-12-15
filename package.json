@@ -10,8 +10,8 @@
   },
   "dependencies": {
     "@web3sdkio/auth": "^1",
-    "@web3sdkio/react": "^3",
-    "@web3sdkio/sdk": "^3",
+    "@web3sdkio/react": "^2.0.1",
+    "@web3sdkio/sdk": "^1.0.12",
     "cookie": "^0.5.0",
     "ethers": "^5.6.8",
     "next": "^12.1.6",

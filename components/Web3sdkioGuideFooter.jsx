@@ -18,7 +18,7 @@ export default function Web3sdkioGuideFooter() {
         role="button"
         onClick={() =>
           window.open(
-            "https://github.com/web3sdkio-example/nft-gated-website",
+            "https://github.com/web3sdkio-template/nft-gated-website",
             "_blank"
           )
         }
@@ -39,7 +39,7 @@ export default function Web3sdkioGuideFooter() {
           style={{ cursor: "pointer" }}
           onClick={() =>
             window.open(
-              "https://github.com/web3sdkio-example/nft-gated-website",
+              "https://github.com/web3sdkio-template/nft-gated-website",
               "_blank"
             )
           }

@@ -16,7 +16,7 @@ export default function Login() {
         using{" "}
         <b>
           <a
-            href="https://portal.web3sdk.io/building-web3-apps/authenticating-users"
+            href="https://docs.web3sdk.io/building-web3-apps/authenticating-users"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.purple}

@@ -2,13 +2,13 @@
 
 This project demonstrates how you can restrict content on your website to only those users who own an NFT from your collection.
 
-We use an [Edition Drop](https://portal.web3sdk.io/pre-built-contracts/edition-drop) contract to enable users to claim one of the NFTs, and serve users
+We use an [Edition Drop](https://docs.web3sdk.io/pre-built-contracts/edition-drop) contract to enable users to claim one of the NFTs, and serve users
 the restricted content if they have at least one of the NFTs claimed.
 
 ## Tools:
 
 - [React SDK](https://docs.web3sdk.io/react): To access the connected wallet, switch the user's network, and claim an NFT from our Edition Drop collection.
-- [Auth](https://portal.web3sdk.io/building-web3-apps/authenticating-users): To ask users to sign a message and verify they own the wallet they claim to be, while on the server-side.
+- [Auth](https://docs.web3sdk.io/building-web3-apps/authenticating-users): To ask users to sign a message and verify they own the wallet they claim to be, while on the server-side.
 
 ## Using This Template
 
@@ -28,7 +28,7 @@ WEB3SDKIO_AUTH_PRIVATE_KEY=your-wallet-private-key
 
 ## How It Works
 
-Using [Auth](https://portal.web3sdk.io/auth), we can verify a user's identity on the server-side, by asking them to sign a message and verify they own the wallet they claim to be, and validating the signature.
+Using [Auth](https://docs.web3sdk.io/auth), we can verify a user's identity on the server-side, by asking them to sign a message and verify they own the wallet they claim to be, and validating the signature.
 
 When we verified the user's identity on the server-side, we check their wallet to see if they have an NFT from our collection. We can then serve different content and restrict what pages they can access based on their NFT balance.
 
@@ -238,4 +238,4 @@ const logout = useLogout();
 
 ## Join our Discord!
 
-For any questions, suggestions, join our discord at [https://discord.gg/web3sdkio](https://discord.gg/web3sdkio).
+For any questions, suggestions, join our discord at [https://discord.gg/n33UhsfUKB](https://discord.gg/n33UhsfUKB).
